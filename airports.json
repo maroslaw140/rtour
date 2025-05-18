@@ -99,22 +99,5 @@
         "lon": 16.5697,
         "address": "Flughafen Wien, 1300 Wien, Austria"
       }
-    ],
-    "extras": [
-      {
-        "name": "Transport z poza Opola",
-        "price_1_3": "1,49 zł / km",
-        "price_3_8": "1,99 zł / km"
-      },
-      {
-        "name": "Transfer zamawiany szybciej niż 24H przed lotem/przylotem",
-        "price_1_3": "+49 zł",
-        "price_3_8": "+49 zł"
-      },
-      {
-        "name": "Transfer w dni ustawowo wolne lub Święta",
-        "price_1_3": "+49 zł",
-        "price_3_8": "+49 zł"
-      }
     ]
   }

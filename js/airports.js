@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+
     // Ładowanie danych z JSON
     fetch('/airports.json')
         .then(response => response.json())
@@ -12,8 +13,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // Funkcja generująca tabelę cen
     function generatePricingTable(data) {
         const tableBody = document.getElementById('pricing-table-body');
-
-        // Dodanie lotnisk
+        const staticRows = tableBody.querySelectorAll('tr');
+        
+        // Dodaj lotniska przed istniejącymi wierszami
         data.airports.forEach(airport => {
             const row = document.createElement('tr');
             row.innerHTML = `
@@ -21,22 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <td>${airport.price_1_3} zł</td>
                 <td>${airport.price_3_8} zł</td>
             `;
-            tableBody.appendChild(row);
-        });
-
-        // Dodanie dodatkowych opcji
-        data.extras.forEach(extra => {
-            const row = document.createElement('tr');
-            const colspan = extra.price_1_3 === extra.price_3_8 ? 2 : 1;
-
-            row.innerHTML = `
-                <td>${extra.name}</td>
-                ${colspan === 2 ?
-                    `<td colspan="2" class="text-center">${extra.price_1_3}</td>` :
-                    `<td>${extra.price_1_3}</td><td>${extra.price_3_8}</td>`
-                }
-            `;
-            tableBody.appendChild(row);
+            tableBody.insertBefore(row, staticRows[0]);
         });
     }
 
