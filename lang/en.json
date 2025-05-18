@@ -1,7 +1,5 @@
 {
   "meta": {
-    "language": "en",
-    "author": "Marek Müller",
     "description": "Airport transfers from Opole. We offer comfortable and safe transfers to airports in Poland and abroad.",
     "keywords": "transfers, airports, Opole, comfort, safety, booking"
   },
@@ -15,8 +13,8 @@
   "hero": {
     "title": "AIRPORT TRANSFERS FROM OPOLE",
     "subtitle": "We serve the entire Opole region",
-    "text1": "We offer individual, comfortable and safe transfers to airports including Wrocław Starachowice, Katowice Pyrzowice, Kraków - Balice, Warsaw - Okęcie.",
-    "text2": "Book your transfer today and travel stress-free, trust and experience travel at the highest level. We are waiting for you."
+    "text1": "We offer comfortable and safe transfers to airports including Wrocław Starachowice, Katowice Pyrzowice, Kraków - Balice, Warsaw - Okęcie.",
+    "text2": "Book your transfer today and travel stress-free, trust us and experience travel at the highest level. We are waiting for you."
   },
   "features": {
     "title": "WHAT MAKES US SPECIAL?",
@@ -29,7 +27,7 @@
     ]
   },
   "whyUs": {
-    "title": "WHY CHOOSE OUR TRANSFER SERVICES?",
+    "title": "WHY YOU SHOULD CHOOSE OUR TRANSFER SERVICES?",
     "comfort": {
       "title": "COMFORT AND CONVENIENCE",
       "text": "We have modern and spacious vehicles ensuring a pleasant journey. For families, we offer professional child seats from RECARO, MAXI COSI, ROMER."
@@ -40,7 +38,7 @@
     },
     "punctuality": {
       "title": "PUNCTUALITY",
-      "text": "We know how important punctuality is for air travel. We guarantee that with us you will always arrive on time and return to the specified address despite delays or flight diversions."
+      "text": "We know how important punctuality is for air travel. We guarantee that with us you will always arrive on time and return to correct address despite delays or flight diversions."
     },
     "flexibility": {
       "title": "FLEXIBILITY",
@@ -48,7 +46,7 @@
     },
     "cars": {
       "title": "PASSENGER CARS",
-      "text": "Ideal for individual or business transportation. Our cars offer high comfort and travel safety, equipped with air conditioning, sun blinds, comfortable seats and plenty of space."
+      "text": "Ideal for individual or business travel. Our cars offer high comfort and travel safety, equipped with air conditioning, sun blinds, comfortable seats and plenty of space."
     },
     "minibuses": {
       "title": "MINIBUSES",
@@ -64,7 +62,7 @@
     },
     "arrival": {
       "title": "ARRIVING?",
-      "text": "Our driver will contact you, pick you up from the airport and take you to the specified address."
+      "text": "Our driver will contact you, pick you up from the airport and take you to the address you specify."
     },
     "notes": [
       "*Prices in the table are for one-way trips",
@@ -131,17 +129,5 @@
     "links": "Links",
     "contact": "Contact",
     "copyright": "&copy; 2025 ReniaTour. All rights reserved."
-  },
-  "airports": {
-    "WRO": "Wrocław (WRO)",
-    "KTW": "Katowice (KTW)",
-    "KRK": "Kraków (KRK)",
-    "WAW": "Warsaw (WAW)",
-    "WMI": "Modlin (WMI)",
-    "POZ": "Poznań (POZ)",
-    "BER": "Berlin (BER)",
-    "FRA": "Frankfurt (FRA)",
-    "PRG": "Prague (PRG)",
-    "VIE": "Vienna (VIE)"
   }
 }
