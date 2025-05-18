@@ -1,0 +1,147 @@
+{
+    "meta": {
+      "language": "pl",
+      "author": "Marek Müller",
+      "description": "Transfery lotniskowe z Opola. Oferujemy komfortowe i bezpieczne transfery na lotniska w Polsce i za granicą.",
+      "keywords": "transfery, lotniska, Opole, komfort, bezpieczeństwo, rezerwacja"
+    },
+    "nav": {
+      "brand": "ReniaTour",
+      "offer": "Oferta",
+      "pricing": "Cennik",
+      "booking": "Rezerwacja",
+      "contact": "Kontakt"
+    },
+    "hero": {
+      "title": "TRANSFERY NA LOTNISKA Z OPOLA",
+      "subtitle": "Obsługujemy całe województwo Opolskie",
+      "text1": "Oferujemy Państwu indywidualne, komfortowe oraz bezpieczne transfery na lotniska m.in. Wrocław Starachowice, Katowice Pyrzowice, Kraków – Balice, Warszawa- Okęcie.",
+      "text2": "Zarezerwuj transfer już dziś i podróżuj bez stresu, zaufaj i doświadcz podrózy na najwyższym poziomie. Czekamy na Ciebie."
+    },
+    "features": {
+      "title": "CO NAS WYRÓŻNIA?",
+      "items": [
+        "Komfort podczas krótkich jak i długich transferów",
+        "Dezynfekcja auta po każdym kursie",
+        "Nowoczesna flota pojazdów",
+        "Atrakcyjne i konkurencyjne ceny transferów",
+        "Wiele form płatności kartą/gotówką"
+      ]
+    },
+    "whyUs": {
+      "title": "DLACZEGO WARTO WYBRAĆ NASZE USŁUGI TRANSFEROWE?",
+      "comfort": {
+        "title": "KOMFORT ORAZ WYGODA",
+        "text": "Posiadamy nowoczesne oraz przestronne pojazdy zapewniające przyjemną podróż. Dla rodzin oferujemy profesjonalne foteliki dla dzieci marki RECARO, MAXI COSI, ROMER."
+      },
+      "safety": {
+        "title": "BEZPIECZEŃSTWO",
+        "text": "Nasi kierowcy wyróżniają się doświadczeniem oraz długoletnim stażem w transporcie pasażerskim, którzy dbają o bezpieczny i spokojny przewóz."
+      },
+      "punctuality": {
+        "title": "PUNKTUALNOŚĆ",
+        "text": "Wiemy jak ważna jest punktualność przy podróżach lotniczych. Gwarantujemy, że z nami zawsze dotrzesz na czas oraz wrócisz pod wskazany adres mimo opóźnień lub przekierowania lotu."
+      },
+      "flexibility": {
+        "title": "ELASTYCZNOŚĆ",
+        "text": "Jesteśmy dostępni 365 dni w roku przez 24 godziny na dobę. Oferujemy transfery dostosowane do indywidualnych potrzeb."
+      },
+      "cars": {
+        "title": "Samochody osobowe",
+        "text": "Idealne do indywidualnych lub biznesowych przewozów. Nasze samochody oferują wysoki komfort oraz bezpieczeństwo podroży, są wyposażone m.in. klimatyzację, rolety przeciwsłoneczne, wygodne fotele i dużo miejsca."
+      },
+      "minibuses": {
+        "title": "MINI BUSY",
+        "text": "Doskonałe rozwiązanie dla większych grup (do 8 osób). Nasze busy oferują klimatyzację 3 strefową, wygodne fotele oraz rolety przeciwsłoneczne."
+      }
+    },
+    "pricing": {
+      "title": "CENNIK TRANSFERÓW LOTNISKOWYCH Z OPOLA",
+      "subtitle": "Nasze transfery realizowane są indywidualnie z adresu pod adres",
+      "departure": {
+        "title": "WYLATUJESZ?",
+        "text": "Przyjedziemy pod wskazany adres i zawieziemy Cię na lotnisko"
+      },
+      "arrival": {
+        "title": "PRZYLATUJESZ?",
+        "text": "Nasz kierowca skontaktuje się z Tobą, odbierze Cię z lotniska oraz zawiezie pod wskazany adres."
+      },
+      "notes": [
+        "*Ceny w tabeli dotyczą pojedynczych przejazdów (w jedną stronę)",
+        "*Pozostałe usługi transportowe wyceniamy indywidualnie."
+      ]
+    },
+    "booking": {
+      "title": "Rezerwacja Transferów",
+      "direction": {
+        "label": "Przylot / wylot",
+        "placeholder": "Proszę wybrać",
+        "options": {
+          "departure": "Przylatuję do",
+          "arrival": "Wylatuję z"
+        }
+      },
+      "airport": {
+        "label": "Lotnisko",
+        "placeholder": "Proszę wybrać"
+      },
+      "passengers": {
+        "label": "Ilu pasażerów",
+        "options": [
+          "1 pasażer",
+          "2 pasażerów",
+          "3 pasażerów",
+          "4 pasażerów",
+          "5 pasażerów",
+          "6 pasażerów",
+          "7 pasażerów",
+          "8 pasażerów",
+          "więcej"
+        ]
+      },
+      "contact": {
+        "title": "Dane kontaktowe",
+        "name": "Imię",
+        "email": "Adres e-mail",
+        "phone": "Numer telefonu",
+        "address": "Adres wyjazdu / przyjazdu"
+      },
+      "date": {
+        "label": "Data",
+        "placeholder": "Proszę wpisać datę"
+      },
+      "privacy": {
+        "text": "Wyrażam zgodę na przetwarzanie danych osobowych przez RENIATOUR Renata Adamska z siedzibą w Opolu, w celu i zakresie niezbędnym do obsługi zapytania."
+      },
+      "submit": "Rezerwuj"
+    },
+    "contact": {
+      "title": "Jesteśmy dostępni całą dobę!",
+      "phone": "+48 690 300 690",
+      "email": "info@reniatour.pl",
+      "address": {
+        "line1": "ul. Wrocławska 18a/30",
+        "line2": "45-7070 Opole",
+        "line3": "NIP: 754-336-00-60"
+      }
+    },
+    "footer": {
+      "company": "ReniaTour",
+      "description": "Profesjonalne transfery lotniskowe z Opola i całego województwa opolskiego.",
+      "links": "Linki",
+      "contact": "Kontakt",
+      "copyright": "&copy; 2025 ReniaTour. Wszelkie prawa zastrzeżone."
+    },
+    "airports": {
+      "WRO": "Wrocław (WRO)",
+      "KTW": "Katowice (KTW)",
+      "KRK": "Kraków (KRK)",
+      "WAW": "Warszawa (WAW)",
+      "WMI": "Modlin (WMI)",
+      "POZ": "Poznań (POZ)",
+      "BER": "Berlin (BER)",
+      "FRA": "Frankfurt (FRA)",
+      "PRG": "Praga (PRG)",
+      "VIE": "Wiedeń (VIE)"
+    }
+  }

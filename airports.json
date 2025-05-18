@@ -1,0 +1,120 @@
+{
+    "airports": [
+      {
+        "code": "WRO",
+        "name": "Wrocław",
+        "price_1_3": 289,
+        "price_3_8": 489,
+        "lat": 51.1033,
+        "lon": 16.8808,
+        "address": "Graniczna 190, 54-530 Wrocław"
+      },
+      {
+        "code": "KTW",
+        "name": "Katowice",
+        "price_1_3": 289,
+        "price_3_8": 489,
+        "lat": 50.4743,
+        "lon": 19.0801,
+        "address": "Wolności 90, 42-625 Ożarowice"
+      },
+      {
+        "code": "KRK",
+        "name": "Kraków",
+        "price_1_3": 489,
+        "price_3_8": 689,
+        "lat": 50.0777,
+        "lon": 19.7848,
+        "address": "Kapitana Mieczysława Medweckiego 1, 32-083 Balice"
+      },
+      {
+        "code": "WAW",
+        "name": "Warszawa",
+        "price_1_3": 789,
+        "price_3_8": 989,
+        "lat": 52.1672,
+        "lon": 20.9679,
+        "address": "Żwirki i Wigury 1, 02-143 Warszawa"
+      },
+      {
+        "code": "POZ",
+        "name": "Poznań",
+        "price_1_3": 789,
+        "price_3_8": 989,
+        "lat": 52.4095,
+        "lon": 16.8369,
+        "address": "Bukowska 285, 60-189 Poznań"
+      },
+      {
+        "code": "RZE",
+        "name": "Rzeszów",
+        "price_1_3": 889,
+        "price_3_8": 1189,
+        "lat": 50.1100,
+        "lon": 22.0190,
+        "address": "Jasionka 942, 36-002 Jasionka"
+      },
+      {
+        "code": "WMI",
+        "name": "Modlin",
+        "price_1_3": 889,
+        "price_3_8": 1089,
+        "lat": 52.4511,
+        "lon": 20.6517,
+        "address": "Generała Wiktora Thommée, 05-102 Nowy Dwór Mazowiecki"
+      },
+      {
+        "code": "BER",
+        "name": "Berlin",
+        "price_1_3": 989,
+        "price_3_8": 1189,
+        "lat": 52.3644,
+        "lon": 13.5057,
+        "address": "Melli-Beese-Ring 1, 12529 Schönefeld, Niemcy"
+      },
+      {
+        "code": "FRA",
+        "name": "Frankfurt",
+        "price_1_3": 1989,
+        "price_3_8": 2189,
+        "lat": 50.0379,
+        "lon": 8.5622,
+        "address": "60547 Frankfurt am Main, Niemcy"
+      },
+      {
+        "code": "PRG",
+        "name": "Praga",
+        "price_1_3": 989,
+        "price_3_8": 1189,
+        "lat": 50.1076,
+        "lon": 14.2606,
+        "address": "Aviatická, 161 00 Praha 6, Czechy"
+      },
+      {
+        "code": "VIE",
+        "name": "Wiedeń",
+        "price_1_3": 1289,
+        "price_3_8": 1689,
+        "lat": 48.1103,
+        "lon": 16.5697,
+        "address": "Flughafen Wien, 1300 Wien, Austria"
+      }
+    ],
+    "extras": [
+      {
+        "name": "Transport z poza Opola",
+        "price_1_3": "1,49 zł / km",
+        "price_3_8": "1,99 zł / km"
+      },
+      {
+        "name": "Transfer zamawiany szybciej niż 24H przed lotem/przylotem",
+        "price_1_3": "+49 zł",
+        "price_3_8": "+49 zł"
+      },
+      {
+        "name": "Transfer w dni ustawowo wolne lub Święta",
+        "price_1_3": "+49 zł",
+        "price_3_8": "+49 zł"
+      }
+    ]
+  }

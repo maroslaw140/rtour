@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "language": "en",
+    "author": "Marek Müller",
+    "description": "Airport transfers from Opole. We offer comfortable and safe transfers to airports in Poland and abroad.",
+    "keywords": "transfers, airports, Opole, comfort, safety, booking"
+  },
+  "nav": {
+    "brand": "ReniaTour",
+    "offer": "Offer",
+    "pricing": "Pricing",
+    "booking": "Booking",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "AIRPORT TRANSFERS FROM OPOLE",
+    "subtitle": "We serve the entire Opole region",
+    "text1": "We offer individual, comfortable and safe transfers to airports including Wrocław Starachowice, Katowice Pyrzowice, Kraków - Balice, Warsaw - Okęcie.",
+    "text2": "Book your transfer today and travel stress-free, trust and experience travel at the highest level. We are waiting for you."
+  },
+  "features": {
+    "title": "WHAT MAKES US SPECIAL?",
+    "items": [
+      "Comfort during short and long transfers",
+      "Car disinfection after each ride",
+      "Modern fleet of vehicles",
+      "Attractive and competitive transfer prices",
+      "Various payment methods (card/cash)"
+    ]
+  },
+  "whyUs": {
+    "title": "WHY CHOOSE OUR TRANSFER SERVICES?",
+    "comfort": {
+      "title": "COMFORT AND CONVENIENCE",
+      "text": "We have modern and spacious vehicles ensuring a pleasant journey. For families, we offer professional child seats from RECARO, MAXI COSI, ROMER."
+    },
+    "safety": {
+      "title": "SAFETY",
+      "text": "Our drivers stand out with their experience and long-standing service in passenger transport, ensuring safe and peaceful transportation."
+    },
+    "punctuality": {
+      "title": "PUNCTUALITY",
+      "text": "We know how important punctuality is for air travel. We guarantee that with us you will always arrive on time and return to the specified address despite delays or flight diversions."
+    },
+    "flexibility": {
+      "title": "FLEXIBILITY",
+      "text": "We are available 365 days a year, 24 hours a day. We offer transfers tailored to individual needs."
+    },
+    "cars": {
+      "title": "Passenger cars",
+      "text": "Ideal for individual or business transportation. Our cars offer high comfort and travel safety, equipped with air conditioning, sun blinds, comfortable seats and plenty of space."
+    },
+    "minibuses": {
+      "title": "MINIBUSES",
+      "text": "Perfect solution for larger groups (up to 8 people). Our minibuses offer 3-zone air conditioning, comfortable seats and sun blinds."
+    }
+  },
+  "pricing": {
+    "title": "AIRPORT TRANSFER PRICES FROM OPOLE",
+    "subtitle": "Our transfers are carried out individually from address to address",
+    "departure": {
+      "title": "DEPARTING?",
+      "text": "We will come to the specified address and take you to the airport"
+    },
+    "arrival": {
+      "title": "ARRIVING?",
+      "text": "Our driver will contact you, pick you up from the airport and take you to the specified address."
+    },
+    "notes": [
+      "*Prices in the table are for one-way trips",
+      "*Other transport services are priced individually."
+    ]
+  },
+  "booking": {
+    "title": "Transfer Reservation",
+    "direction": {
+      "label": "Arrival / departure",
+      "placeholder": "Please select",
+      "options": {
+        "departure": "I'm arriving to",
+        "arrival": "I'm departing from"
+      }
+    },
+    "airport": {
+      "label": "Airport",
+      "placeholder": "Please select"
+    },
+    "passengers": {
+      "label": "Number of passengers",
+      "options": [
+        "1 passenger",
+        "2 passengers",
+        "3 passengers",
+        "4 passengers",
+        "5 passengers",
+        "6 passengers",
+        "7 passengers",
+        "8 passengers",
+        "more"
+      ]
+    },
+    "contact": {
+      "title": "Contact details",
+      "name": "Name",
+      "email": "Email address",
+      "phone": "Phone number",
+      "address": "Pick-up / drop-off address"
+    },
+    "date": {
+      "label": "Date",
+      "placeholder": "Please enter the date"
+    },
+    "privacy": {
+      "text": "I consent to the processing of personal data by RENIATOUR Renata Adamska based in Opole, to the extent necessary to handle the inquiry."
+    },
+    "submit": "Book now"
+  },
+  "contact": {
+    "title": "We are available 24/7!",
+    "phone": "+48 690 300 690",
+    "email": "info@reniatour.pl",
+    "address": {
+      "line1": "Wrocławska 18a/30",
+      "line2": "45-7070 Opole",
+      "line3": "Tax ID: 754-336-00-60"
+    }
+  },
+  "footer": {
+    "company": "ReniaTour",
+    "description": "Professional airport transfers from Opole and the entire Opole region.",
+    "links": "Links",
+    "contact": "Contact",
+    "copyright": "&copy; 2025 ReniaTour. All rights reserved."
+  },
+  "airports": {
+    "WRO": "Wrocław (WRO)",
+    "KTW": "Katowice (KTW)",
+    "KRK": "Kraków (KRK)",
+    "WAW": "Warsaw (WAW)",
+    "WMI": "Modlin (WMI)",
+    "POZ": "Poznań (POZ)",
+    "BER": "Berlin (BER)",
+    "FRA": "Frankfurt (FRA)",
+    "PRG": "Prague (PRG)",
+    "VIE": "Vienna (VIE)"
+  }
+}

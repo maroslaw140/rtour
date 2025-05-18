@@ -1,0 +1,399 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReniaTour</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <meta name="description" data-i18n="meta.description" content="Transfery lotniskowe z Opola. Oferujemy komfortowe i bezpieczne transfery na lotniska w Polsce i za granicą.">
+    <meta name="keywords" data-i18n="meta.keywords" content="transfery, lotniska, Opole, komfort, bezpieczeństwo, rezerwacja">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="copyright" content="ReniaTour">
+    <meta name="language" content="pl">
+    <meta name="author" content="Marek Müller">
+</head>
+<body>
+    <!-- Nawigacja -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-lg-none" href="#">
+                ReniaTour
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cennik" data-i18n="nav.pricing">Cennik</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rezerwacja" data-i18n="nav.booking">Rezerwacja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#oferta" data-i18n="nav.offer">Oferta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontakt" data-i18n="nav.contact">Kontakt</a>
+                    </li>
+                </ul>
+                <div class="d-flex gap-2">
+                    <a href="tel:+48690300690" class="btn btn-outline-light">
+                        <i class="bi bi-telephone"></i> +48 690 300 690
+                    </a>
+                    <a href="mailto:info@reniatour.pl" class="btn btn-outline-light">
+                        <i class="bi bi-envelope"></i> info@reniatour.pl
+                    </a>
+                    <div class="btn-group language-switcher-container   ">
+                        <button class="btn btn-sm btn-outline-light language-switcher active" data-lang="pl">PL</button>
+                        <button class="btn btn-sm btn-outline-light language-switcher" data-lang="en">EN</button>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sekcja hero -->
+    <section class="hero-section">
+        <div class="container ml-4">
+            <img src="./layout/bigLogoTb.png" alt="ReniaTour Logo" class="img-fluid logo" style="max-width: 50%;">
+            <h1 class="display-10 fw-bold mt-5" data-i18n="hero.title">TRANSFERY NA LOTNISKA Z OPOLA</h1>
+            <p class="lead mb-5" data-i18n="hero.subtitle">Obsługujemy całe województwo Opolskie</p>
+            <p class="mb-3" data-i18n="hero.text1">Oferujemy Państwu indywidualne, komfortowe oraz bezpieczne transfery na lotniska m.in. Wrocław Starachowice, Katowice Pyrzowice, Kraków – Balice, Warszawa- Okęcie.</p>
+            <p class="mb-1" data-i18n="hero.text2">Zarezerwuj transfer już dziś i podróżuj bez stresu, zaufaj i doświadcz podrózy na najwyższym poziomie Czekamy na Ciebie.</p>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 mb-4">
+                    <h2 class="text-center mb-5" data-i18n="features.title">CO NAS WYRÓŻNIA?</h2>
+
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-center mb-4">
+                            <i class="bi bi-check-circle-fill text-success me-3"></i>
+                            <h5 data-i18n="features.items.0">Komfort podczas krótkich jak i długich transferów</h5>
+                        </li>
+                        <li class="d-flex align-items-center mb-4">
+                            <i class="bi bi-check-circle-fill text-success me-3"></i>
+                            <h5 data-i18n="features.items.1">Dezynfekcja auta po każdym kursie</h5>
+                        </li>
+                        <li class="d-flex align-items-center mb-4">
+                            <i class="bi bi-check-circle-fill text-success me-3"></i>
+                            <h5 data-i18n="features.items.2">Nowoczesna flota pojazdów</h5>
+                        </li>
+                        <li class="d-flex align-items-center mb-4">
+                            <i class="bi bi-check-circle-fill text-success me-3"></i>
+                            <h5 data-i18n="features.items.3">Atrakcyjne i konkurencyjne ceny transferów</h5>
+                        </li>
+                        <li class="d-flex align-items-center mb-4">
+                            <i class="bi bi-check-circle-fill text-success me-3"></i>
+                            <h5 data-i18n="features.items.4">Wiele form płatności kartą/gotówką</h5>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-7 mb-4">
+                    <div id="mapka" style="width:100%; height:500px;"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja cennik -->
+    <section id="cennik" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4" data-i18n="pricing.title">CENNIK TRANSFERÓW LOTNISKOWYCH Z OPOLA</h2>
+            <p class="text-center mb-5" data-i18n="pricing.subtitle">Nasze transfery realizowane są indywidualnie z adresu pod adres.</p>
+
+            <div class="row mb-5">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                            <h3 class="card-title mb-3" data-i18n="pricing.departure.title">WYLATUJESZ?</h3>
+                            <p class="card-text" data-i18n="pricing.departure.text">Przyjedziemy pod wskazany adres i zawieziemy Cię na lotnisko</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                            <h3 class="card-title mb-3" data-i18n="pricing.arrival.title">PRZYLATUJESZ?</h3>
+                            <p class="card-text" data-i18n="pricing.arrival.text">Nasz kierowca skontaktuje się z Tobą, odbierze Cię z lotniska oraz zawiezie pod wskazany adres.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover pricing-table">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Kierunek</th>
+                            <th>1 - 3 osoby</th>
+                            <th>3 - 8 osób</th>
+                        </tr>
+                    </thead>
+                    <tbody id="pricing-table-body">
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-muted mt-3" data-i18n="pricing.notes.0">*Ceny w tabeli dotyczą pojedynczych przejazdów (w jedną stronę)</p>
+            <p class="text-muted" data-i18n="pricing.notes.1">*Pozostałe usługi transportowe wyceniamy indywidualnie.</p>
+        </div>
+    </section>
+
+    <!-- Sekcja rezerwacja -->
+    <section id="rezerwacja" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card">
+                        <div class="card-body p-5 bg-light">
+                            <form class="reservation-form">
+                                <!-- Sekcja Przylot/Wylot -->
+                                <div class="mb-4">
+                                    <h5 class="form-section-title" ata-i18n="booking.title">Rezerwacja Transferów</h5>
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="direction-type" class="form-label" data-i18n="booking.direction.label">Przylot / wylot <span class="text-danger">*</span></label>
+                                            <select class="form-select" id="direction-type" required>
+                                                <option value="" selected disabled data-i18n="booking.direction.placeholder">Proszę wybrać</option>
+                                                <option value="departure" data-i18n="booking.direction.options.departure">Przylatuję do</option>
+                                                <option value="arrival" data-i18n="booking.direction.options.arrival">Wylatuję z</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="airport" class="form-label" data-i18n="booking.airport.label">Lotnisko <span class="text-danger">*</span></label>
+                                            <select class="form-select" id="airport" required>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Sekcja Pasażerowie -->
+                                <div class="mb-4">
+                                    <h5 class="form-section-title" data-i18n="booking.passengers.label">Ilu pasażerów <span class="text-danger">*</span></h5>
+                                    <select class="form-select" id="passengers" required>
+                                        <option value="" selected disabled data-i18n="booking.airport.placeholder">Proszę wybrać</option>
+                                        <option value="1" data-i18n="booking.passengers.options.0">1 pasażer</option>
+                                        <option value="2" data-i18n="booking.passengers.options.1">2 pasażerów</option>
+                                        <option value="3" data-i18n="booking.passengers.options.2">3 pasażerów</option>
+                                        <option value="4" data-i18n="booking.passengers.options.3">4 pasażerów</option>
+                                        <option value="5" data-i18n="booking.passengers.options.4">5 pasażerów</option>
+                                        <option value="6" data-i18n="booking.passengers.options.5">6 pasażerów</option>
+                                        <option value="7" data-i18n="booking.passengers.options.6">7 pasażerów</option>
+                                        <option value="8" data-i18n="booking.passengers.options.7">8 pasażerów</option>
+                                        <option value="0" data-i18n="booking.passengers.options.8">więcej</option>
+                                    </select>
+                                </div>
+
+                                <!-- Sekcja Dane kontaktowe -->
+                                <div class="mb-4">
+                                    <h5 class="form-section-title" data-i18n="booking.contact.title">Dane kontaktowe</h5>
+                                    <div class="row g-3">
+                                        <div class="col-md-12">
+                                            <label for="name" class="form-label" data-i18n="booking.contact.name">Imię <span class="text-danger">*</span></label>
+                                            <input type="text" class="form-control" id="name" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="email" class="form-label" data-i18n="booking.contact.email">Adres e-mail <span class="text-danger">*</span></label>
+                                            <input type="email" class="form-control" id="email" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="phone" class="form-label" data-i18n="booking.contact.phone">Numer telefonu <span class="text-danger">*</span></label>
+                                            <input type="tel" class="form-control" id="phone" required>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label for="address" class="form-label" data-i18n="booking.contact.address">Adres wyjazdu / przyjazdu <span class="text-danger">*</span></label>
+                                            <textarea class="form-control" id="address-info" rows="2" required></textarea>
+                                        </div>
+                                        <!-- <div class="col-md-12">
+                                            <label for="additional-info" class="form-label">Dodatkowe informacje</label>
+                                            <textarea class="form-control" id="additional-info" rows="3"></textarea>
+                                        </div> -->
+                                    </div>
+                                </div>
+
+                                <!-- Sekcja Data -->
+                                <div class="mb-4">
+                                    <h5 class="form-section-title" data-i18n="booking.date.label">Data</h5>
+                                    <input type="date" class="form-control" id="date" placeholder="Proszę wpisać datę" required>
+                                </div>
+
+                                <!-- Sekcja Polityka prywatności -->
+                                <div class="mb-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="privacy-policy" required>
+                                        <label class="form-check-label" for="privacy-policy">
+                                            Akceptuję <span class="text-danger">*</span><br>
+                                            <small data-i18n="booking.privacy.text">Wyrażam zgodę na przetwarzanie danych osobowych przez RENIATOUR Renata Adamska z siedzibą w Opolu, w celu i zakresie niezbędnym do obsługi zapytania.</small>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <!-- Przycisk submit -->
+                                <div class="text-center mt-4">
+                                    <button type="submit" class="btn btn-primary btn-lg px-5" data-i18n="booking.submit">Rezerwuj</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja dlaczego my -->
+    <section id="oferta" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-i18n="whyUs.title">DLACZEGO WARTO WYBRAĆ NASZE USŁUGI TRANSFEROWE?</h2>
+            
+            <div class="row mb-5">
+                <div class="col-md-6 col-lg-4 text-center mb-4">
+                    <div class="feature-icon">
+                        <i class="bi bi-emoji-smile"></i>
+                    </div>
+                    <h3 data-i18n="whyUs.comfort.title">KOMFORT ORAZ WYGODA</h3>
+                    <p data-i18n="whyUs.comfort.text">Posiadamy nowoczesne oraz przestronne pojazdy zapewniające przyjemną podróż. Dla rodzin oferujemy profesjonalne foteliki dla dzieci marki RECARO, MAXI COSI, ROMER.</p>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center mb-4">
+                    <div class="feature-icon">
+                        <i class="bi bi-shield-check"></i>
+                    </div>
+                    <h3 data-i18n="whyUs.safety.title">BEZPIECZEŃSTWO</h3>
+                    <p data-i18n="whyUs.safety.text">Nasi kierowcy wyróżniają się doświadczeniem oraz długoletnim stażem w transporcie pasażerskim, którzy dbają o bezpieczny i spokojny przewóz.</p>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center mb-4">
+                    <div class="feature-icon">
+                        <i class="bi bi-clock"></i>
+                    </div>
+                    <h3 data-i18n="whyUs.punctuality.title">PUNKTUALNOŚĆ</h3>
+                    <p data-i18n="whyUs.punctuality.text">Wiemy jak ważna jest punktualność przy podróżach lotniczych. Gwarantujemy, że z nami zawsze dotrzesz na czas oraz wrócisz pod wskazany adres mimo opóźnień lub przekierowania lotu.</p>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center mb-4">
+                    <div class="feature-icon">
+                        <i class="bi bi-arrow-repeat"></i>
+                    </div>
+                    <h3 data-i18n="whyUs.flexibility.title">ELASTYCZNOŚĆ</h3>
+                    <p data-i18n="whyUs.flexibility.text">Jesteśmy dostępni 365 dni w roku przez 24 godziny na dobę. Oferujemy transfery dostosowane do indywidualnych potrzeb.</p>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center mb-4">
+                    <div class="feature-icon">
+                        <i class="bi bi-car-front"></i>
+                    </div>
+                    <h3 data-i18n="whyUs.cars.title">SAMOCHODY OSOBOWE</h3>
+                    <p data-i18n="whyUs.cars.text">Idealne do indywidualnych lub biznesowych przewozów. Nasze samochody oferują wysoki komfort oraz bezpieczeństwo podroży, są wyposażone m.in. klimatyzację, rolety przeciwsłoneczne, wygodne fotele i dużo miejsca.</p>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center mb-4">
+                    <div class="feature-icon">
+                        <i class="bi bi-bus-front"></i>
+                    </div>
+                    <h3 data-i18n="whyUs.minibuses.title">MINI BUSY</h3>
+                    <p data-i18n="whyUs.minibuses.text">Doskonałe rozwiązanie dla większych grup (do 8 osób). Nasze busy oferują klimatyzację 3 strefową, wygodne fotele oraz rolety przeciwsłoneczne</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja kontakt -->
+    <section id="kontakt" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" data-i18n="contact.title">Jesteśmy dostępni całą dobę!</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 d-flex flex-column justify-content-between">
+                        <div class="card-body text-center">
+                            <img src="./layout/bigLogo.png" alt="ReniaTour Logo" class="img-fluid" style="max-width: 40%;">
+                        </div>
+                        <div class="card-footer bg-transparent border-0 text-center">
+                            <address class="fs-5">
+                                ul. Wrocławska 18a/30<br>
+                                45-7070 Opole<br>
+                                NIP: 754-336-00-60
+                            </address>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card mb-3">
+                        <div class="card-body text-center">
+                            <h3 class="card-title"><i class="bi bi-telephone"></i> Telefon</h3>
+                            <p class="card-text fs-4">+48 690 300 690</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h3 class="card-title"><i class="bi bi-envelope"></i> Email</h3>
+                            <p class="card-text fs-4">info@reniatour.pl</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stopka -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>ReniaTour</h5>
+                    <p data-i18n="footer.description">Profesjonalne transfery lotniskowe z Opola i całego województwa opolskiego.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5 data-i18n="footer.links">Linki</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#cennik" class="text-white" data-i18n="nav.pricing">Cennik</a></li>
+                        <li><a href="#rezerwacja" class="text-white" data-i18n="nav.booking">Rezerwacja</a></li>
+                        <li><a href="#oferta" class="text-white" data-i18n="nav.offer">Oferta</a></li>
+                        <li><a href="#kontakt" class="text-white" data-i18n="nav.contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 data-i18n="footer.contact">Kontakt</h5>
+                    <i class="bi bi-telephone"></i> +48 690 300 690 <br>
+                    <i class="bi bi-envelope"></i> info@reniatour.pl <br>
+                    <div class="d-flex gap-2 mt-3">
+                        <a href="https://www.facebook.com/reniatour" target="_blank" class="text-white me-3">
+                            <i class="bi bi-facebook" style="font-size: 1.5rem;"></i>
+                        </a>
+                        <a href="https://www.instagram.com/renia.tour/" target="_blank" class="text-white">
+                            <i class="bi bi-instagram" style="font-size: 1.5rem;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 ReniaTour. Wszelkie prawa zastrzeżone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <script src="./js/airports.js"></script>  
+    <script src="./js/map.js"></script>
+
+    <script src="./js/translations.js"></script>
+
+    <script>
+        
+    </script>
+
+</body>
+</html>
