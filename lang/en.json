@@ -8,6 +8,7 @@
     "offer": "Offer",
     "pricing": "Pricing",
     "booking": "Booking",
+    "gallery": "Gallery",
     "contact": "Contact"
   },
   "hero": {
@@ -25,6 +26,9 @@
       "Attractive and competitive transfer prices",
       "Various payment methods (card/cash)"
     ]
+  },
+  "gallery" : {
+    "title": "OUR FLEET"
   },
   "whyUs": {
     "title": "WHY YOU SHOULD CHOOSE OUR TRANSFER SERVICES?",
@@ -116,6 +120,7 @@
   "contact": {
     "title": "We are available 24/7!",
     "phone": "+48 690 300 690",
+    "phoneText": "Phone",
     "email": "info@reniatour.pl",
     "address": {
       "line1": "Wrocławska 18a/30",

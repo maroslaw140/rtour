@@ -8,6 +8,7 @@
     "offer": "Oferta",
     "pricing": "Cennik",
     "booking": "Rezerwacja",
+    "gallery": "Galeria",
     "contact": "Kontakt"
   },
   "hero": {
@@ -25,6 +26,9 @@
       "Atrakcyjne i konkurencyjne ceny transferów",
       "Wiele form płatności kartą/gotówką"
     ]
+  },
+  "gallery" : {
+    "title": "NASZA FLOTA"
   },
   "whyUs": {
     "title": "DLACZEGO WARTO WYBRAĆ NASZE USŁUGI TRANSFEROWE?",
@@ -116,6 +120,7 @@
   "contact": {
     "title": "Jesteśmy dostępni całą dobę!",
     "phone": "+48 690 300 690",
+    "phoneText": "Telefon",
     "email": "info@reniatour.pl",
     "address": {
       "line1": "ul. Wrocławska 18a/30",
