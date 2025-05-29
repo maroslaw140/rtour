@@ -68,6 +68,16 @@
       "title": "ARRIVING?",
       "text": "Our driver will contact you, pick you up from the airport and take you to the address you specify."
     },
+    "TableHeader": {
+      "direction": "Direction",
+      "13p": "1-3 passengers",
+      "38p": "3-8 passengers"
+    },
+    "TableNotes": [
+      "Transport from outside Opole",
+      "Transfer ordered more than 24H before flight/arrival",
+      "Transfer on holidays"
+    ],
     "notes": [
       "*Prices in the table are for one-way trips",
       "*Other transport services are priced individually."

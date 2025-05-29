@@ -144,23 +144,23 @@
                 <table class="table table-bordered table-hover pricing-table">
                     <thead class="table-dark">
                         <tr>
-                            <th>Kierunek</th>
-                            <th>1 - 3 osoby</th>
-                            <th>3 - 8 osób</th>
+                            <th><span data-i18n="pricing.TableHeader.direction">Kierunek</span></th>
+                            <th><span data-i18n="pricing.TableHeader.13p">1 - 3 osoby</span></th>
+                            <th><span data-i18n="pricing.TableHeader.38p">3 - 8 osób</span></th>
                         </tr>
                     </thead>
                     <tbody id="pricing-table-body">
                         <tr>
-                            <td>Transport z poza Opola</td>
+                            <td><span data-i18n="pricing.TableNotes.0">Transport z poza Opola</span></td>
                             <td>1,49 zł / km</td>
                             <td>1,99 zł / km</td>
                         </tr>
                         <tr>
-                            <td>Transfer zamawiany szybciej niż 24H przed lotem/przylotem</td>
+                            <td><span data-i18n="pricing.TableNotes.1">Transfer zamawiany szybciej niż 24H przed lotem/przylotem</span></td>
                             <td colspan="2" rowspan="2" class="text-center align-middle">+49 zł</td>
                         </tr>
                         <tr>
-                            <td>Transfer w dni ustawowo wolne lub Święta</td>
+                            <td><span data-i18n="pricing.TableNotes.2">Transfer w dni ustawowo wolne lub Święta</span></td>
                             <!-- <td colspan="2" class="text-center">+49 zł</td> -->
                         </tr>
                     </tbody>
@@ -185,7 +185,7 @@
                                     <div class="row g-3">
                                         <div class="col-md-6">
                                             <label for="direction-type" class="form-label" data-i18n="booking.direction.label">Przylot / wylot <span class="text-danger">*</span></label>
-                                            <select class="form-select" id="direction-type" required>
+                                            <select class="form-select" id="direction-type" name="direction-type" required>
                                                 <option value="" selected disabled data-i18n="booking.direction.placeholder">Proszę wybrać</option>
                                                 <option value="departure" data-i18n="booking.direction.options.departure">Przylatuję do</option>
                                                 <option value="arrival" data-i18n="booking.direction.options.arrival">Wylatuję z</option>
@@ -193,7 +193,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <label for="airport" class="form-label" data-i18n="booking.airport.label">Lotnisko <span class="text-danger">*</span></label>
-                                            <select class="form-select" id="airport" required>
+                                            <select class="form-select" id="airport" name="airport" required>
                                             </select>
                                         </div>
                                     </div>
@@ -202,7 +202,7 @@
                                 <!-- Sekcja Pasażerowie -->
                                 <div class="mb-4">
                                     <h5 class="form-section-title" data-i18n="booking.passengers.label">Ilu pasażerów <span class="text-danger">*</span></h5>
-                                    <select class="form-select" id="passengers" required>
+                                    <select class="form-select" id="passengers" name="passengers" required>
                                         <option value="" selected disabled data-i18n="booking.airport.placeholder">Proszę wybrać</option>
                                         <option value="1" data-i18n="booking.passengers.options.0">1 pasażer</option>
                                         <option value="2" data-i18n="booking.passengers.options.1">2 pasażerów</option>
@@ -222,19 +222,19 @@
                                     <div class="row g-3">
                                         <div class="col-md-12">
                                             <label for="name" class="form-label" data-i18n="booking.contact.name">Imię <span class="text-danger">*</span></label>
-                                            <input type="text" class="form-control" id="name" required>
+                                            <input type="text" class="form-control" id="name" name="name" required>
                                         </div>
                                         <div class="col-md-6">
                                             <label for="email" class="form-label" data-i18n="booking.contact.email">Adres e-mail <span class="text-danger">*</span></label>
-                                            <input type="email" class="form-control" id="email" required>
+                                            <input type="email" class="form-control" id="email" name="email" required>
                                         </div>
                                         <div class="col-md-6">
                                             <label for="phone" class="form-label" data-i18n="booking.contact.phone">Numer telefonu <span class="text-danger">*</span></label>
-                                            <input type="tel" class="form-control" id="phone" required>
+                                            <input type="tel" class="form-control" id="phone" name="phone" required>
                                         </div>
                                         <div class="col-md-12">
                                             <label for="address" class="form-label" data-i18n="booking.contact.address">Adres wyjazdu / przyjazdu <span class="text-danger">*</span></label>
-                                            <textarea class="form-control" id="address-info" rows="2" required></textarea>
+                                            <textarea class="form-control" id="address-info" name="address-info" rows="2" required></textarea>
                                         </div>
                                         <!-- <div class="col-md-12">
                                             <label for="additional-info" class="form-label">Dodatkowe informacje</label>
@@ -246,7 +246,7 @@
                                 <!-- Sekcja Data -->
                                 <div class="mb-4">
                                     <h5 class="form-section-title" data-i18n="booking.date.label">Data</h5>
-                                    <input type="date" class="form-control" id="date" placeholder="Proszę wpisać datę" required>
+                                    <input type="date" class="form-control" id="date" name="date" required>
                                 </div>
 
                                 <!-- Sekcja Polityka prywatności -->
