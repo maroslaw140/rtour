@@ -144,5 +144,10 @@
     "links": "Linki",
     "contact": "Kontakt",
     "copyright": "&copy; 2025 ReniaTour. Wszelkie prawa zastrzeżone."
+  },
+  "mailModal": {
+    "thanks": "Dziękujemy",
+    "message": "Twoja rezerwacja została wysłana. Skontaktujemy się wkrótce.",
+    "button": "Zamknij"
   }
 }

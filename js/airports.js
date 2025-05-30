@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const select = document.getElementById('airport');
         airports.forEach(airport => {
             const option = document.createElement('option');
-            option.value = airport.code;
+            option.value = `${airport.name} (${airport.code})`;
             option.textContent = `${airport.name} (${airport.code})`;
             select.appendChild(option);
         });

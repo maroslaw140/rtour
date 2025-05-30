@@ -144,5 +144,10 @@
     "links": "Links",
     "contact": "Contact",
     "copyright": "&copy; 2025 ReniaTour. All rights reserved."
+  },
+  "mailModal": {
+    "thanks": "Thank you",
+    "message": "Your reservation has been sent. We will contact you soon.",
+    "button": "Close"
   }
 }
